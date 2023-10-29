@@ -1,0 +1,227 @@
+
+
+.navbar a{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.items a{
+    background-color: black;
+}
+
+.drop {
+    background-color: black;
+}
+
+.navbar a:hover {
+    color: gray;
+    padding: 5px;
+}
+
+
+
+
+/* seccion principal */
+
+.hero{
+    background-color: #f5f6f7;
+    min-height: 450px;
+    text-align: center;
+}
+
+.hero-principal {
+    padding: 3rem;
+}
+
+.hero-imagen-perfil {
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    margin: 20px;
+}
+
+.hero-principal h2{
+    font-size: 1.5rem;
+    color: #615151;
+}
+
+/*Fechas tour*/
+
+.fechas{
+  background-color: black;
+  height: 500px;
+}
+
+.fechas h1 {
+  color: #f5f6f7;
+}
+
+.fechas h2 {
+  color: #f5f6f7;
+}
+
+
+/*span*/
+
+.span{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: -100px;
+  background-color: white;
+  height: 150px;
+  width: calc(100% - 400px);
+}
+.span h1{
+  position: relative;
+  left: 20px;
+  color: black;
+}
+.span h2{
+  position: relative;
+  left: 15px;
+  color: black;
+}
+.span h3{
+  position: relative;
+  left: 10px;
+  color: black;
+}
+
+.span h3 span.free {
+  position: absolute;
+  right: 10px; /* Coloca el elemento al extremo derecho */
+  top: 0; 
+
+}
+
+/*avisos sombreado*/
+
+.aviso {
+  position: relative;
+  bottom: 10px;
+  font-size: 1.3rem;
+  background-color: orangered;
+  color: white;
+}
+
+/*Comunicacion*/
+
+.comunicacion {
+  background-color: whitesmoke;
+  height: auto;
+}
+
+.comunicacion h1 {
+  text-align: center;
+  color: black;
+  letter-spacing: 2mm;
+}
+.comunicacion h2 {
+  text-align: center;
+
+}
+
+.info {
+  font-style: normal;
+  position: relative;
+  left: 20px;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+/*iconos comunicacion*/
+
+.iconos-comunicacion i{
+  display: block;
+}
+
+/*footer*/
+ 
+.footer {
+  height: 350px;
+  background-color: black;
+}
+
+.iconos-redes-sociales a {
+  position: relative;
+  bottom: -90px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 50px;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales i{
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in;
+  color: white;
+}
+
+.iconos-redes-sociales a:hover{
+  background-color: white;
+  border: 2px solid rgb(13, 110, 253);
+}
+
+.iconos-redes-sociales a:hover i{
+  color: black;
+}
+
+/*Derechos de autor */
+
+.derechos-de-autor {
+  align-items: center;
+  color: #f5f6f7;
+  display: grid;
+  place-items: center;
+}
+
+
+
+
+
+/* Responsive */
+
+@media screen and (max-width: 767px) {
+    .nav {
+      display: none;
+    }
+  }
+    
+  
+  
+  @media screen and (max-width: 800px) {
+    .hero {
+      height: 200px;
+      width: 200px;
+    }
+  
+    .fechas {
+      font-size: 18px;
+    }
+  }
+  
+  @media screen and (min-width: 700px) {
+    .hero-inferior-imagen {
+      max-width: 600px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .span {
+      min-width: 800px;
+      display: block;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .footer {
+      min-width: 800px;
+      display: block;
+    }
+  }
